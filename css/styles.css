@@ -10,6 +10,7 @@
     --backgroundButtonColor: #188CE8;
     --backgroundFilter: #F5F5F5;
     --frameColor: #EEEEEE;
+    --iconColor: #AFB1B8;
 }
 
 ul {
@@ -474,8 +475,6 @@ footer .contacts a:hover {
     height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
-    /* background-image: url(/images/Vector41.svg);
-    background-size: 70px 70px; */
     background-repeat: no-repeat;
     background-position: 50% 50%;
     margin-bottom: 30px;
@@ -495,4 +494,27 @@ footer .contacts a:hover {
 
 .exeptions .modern-icon::before {
     background-image: url(/images/Vector44.svg);
+}
+
+.clients .client-link {
+    width: 170px;
+    height: 92px;
+    padding: 0%;
+    background: var(--whiteColor);
+    border: 1px solid var(--iconColor);
+    border-radius: 4px;
+}
+
+.clients .client-link:hover {
+    border: 1px solid var(--blueColor);
+}
+
+.client-icon {
+    width: 106px;
+    height: 60px;
+    fill: var(--iconColor);
+}
+
+.client-icon:hover {
+    fill: var(--blueColor);
 }
