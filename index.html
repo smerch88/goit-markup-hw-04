@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Головна</title>
-    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       rel="precoThis is our first project and the first step towards commercial development.nnect"
@@ -16,6 +15,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="page-header">
@@ -45,57 +46,58 @@
       </div>
     </header>
     <main>
-      <!-- <div class="overlay"></div> -->
       <section class="main-description">
         <div class="container">
           <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="order-button">Замовити послугу</button>
         </div>
       </section>
-      <section class="exeptions container section">
-        <h2 class="hidden">Особливості</h2>
-        <ul class="items">
-          <li class="item">
-            <h3 class="exeption-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="exeption-text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="exeption-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="exeption-text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="exeption-title">ПЛАНУВАННЯ</h3>
-            <p class="exeption-text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="exeption-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="exeption-text">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+      <section class="exeptions section">
+        <div class="container">
+          <h2 class="hidden">Особливості</h2>
+          <ul class="items">
+            <li class="item attention-icon">
+              <h3 class="exeption-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="exeption-text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="item time-icon">
+              <h3 class="time-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="exeption-text">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="item plan-icon">
+              <h3 class="exeption-title">ПЛАНУВАННЯ</h3>
+              <p class="exeption-text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="item modern-icon">
+              <h3 class="exeption-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="exeption-text">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="what-do section">
         <div class="container">
           <h2 class="title-section">Чим ми займаємося</h2>
           <ul class="items">
             <li class="item">
-              <img src="images/1.jpg" width="370px" alt="coding" />
+              <img src="images/1.jpg" width="370" alt="coding" />
             </li>
             <li class="item">
-              <img src="images/2.jpg" width="370px" alt="ui/ux" />
+              <img src="images/2.jpg" width="370" alt="ui/ux" />
             </li>
             <li class="item">
-              <img src="images/3.jpg" width="370px" alt="design" />
+              <img src="images/3.jpg" width="370" alt="design" />
             </li>
           </ul>
         </div>
@@ -106,23 +108,31 @@
           <ul class="items">
             <li class="member-box item">
               <img src="images/4.jpg" width="270" alt="Ігор Дем'яненко" />
-              <h3 class="team-title">Ігор Дем'яненко</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="padding-card">
+                <h3 class="team-title">Ігор Дем'яненко</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="member-box item">
               <img src="images/5.jpg" width="270" alt="Ольга Рєпіна" />
-              <h3 class="team-title">Ольга Рєпіна</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="padding-card">
+                <h3 class="team-title">Ольга Рєпіна</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="member-box item">
               <img src="images/6.jpg" width="270" alt="Микола Тарасов" />
-              <h3 class="team-title">Микола Тарасов</h3>
-              <p class="team-text">Marketing</p>
+              <div class="padding-card">
+                <h3 class="team-title">Микола Тарасов</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="member-box item">
               <img src="images/7.jpg" width="270" alt="Михайло Єрмаков" />
-              <h3 class="team-title">Михайло Єрмаков</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="padding-card">
+                <h3 class="team-title">Михайло Єрмаков</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -137,7 +147,7 @@
             >
           </div>
           <ul class="footer-adress">
-            <li>
+            <li class="footer-item">
               <a
                 class="adress-link"
                 href="http://maps.google.com/?q=м.Київ,пр-тЛесіУкраїнки,26"
@@ -146,12 +156,12 @@
                 >м. Київ, пр-т Лесі Українки, 26
               </a>
             </li>
-            <li class="contacts">
+            <li class="contacts footer-item">
               <a href="mailto:info@devstudio.com" class="footer-email"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="contacts">
+            <li class="contacts footer-item">
               <a href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
