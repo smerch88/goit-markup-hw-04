@@ -190,10 +190,6 @@ img {
     font-size: 26px;
 }
 
-.page-header a:visited {
-    color: var(--headTextColor);
-}
-
 .contacts a {
     display: flex;
     font-size: 14px;
@@ -222,8 +218,7 @@ footer .contacts a:link {
     color: var(--textColor);
 }
 
-.current-page a,
-.current-page a:visited {
+header .current-page a {
     color: var(--blueColor);
 }
 
