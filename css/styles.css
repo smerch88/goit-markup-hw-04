@@ -195,8 +195,11 @@ img {
 }
 
 .contacts a {
+    display: flex;
     font-size: 14px;
     line-height: 1.71px;
+    align-items: center;
+
 }
 
 .adress-footer {
@@ -302,6 +305,12 @@ footer .contacts a:hover {
     font-size: 18px;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
+}
+
+.filter-item:hover,
+.filter-item:focus {
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .filter-button {
@@ -503,18 +512,125 @@ footer .contacts a:hover {
     background: var(--whiteColor);
     border: 1px solid var(--iconColor);
     border-radius: 4px;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
 }
 
-.clients .client-link:hover {
-    border: 1px solid var(--blueColor);
+.clients .client-link:hover,
+.clients .client-link:focus {
+    border-color: var(--blueColor);
+    color: var(--blueColor);
+}
+
+.client-icon {
+    color: var(--iconColor);
 }
 
 .client-icon {
     width: 106px;
     height: 60px;
-    fill: var(--iconColor);
+    fill: currentColor;
 }
 
 .client-icon:hover {
     fill: var(--blueColor);
+}
+
+.mail-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.phone-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.social-network {
+    margin-top: 16px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.social-network .item2:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-box {
+    display: flex;
+    align-items: center;
+    color: var(--iconColor);
+    background-color: var(--whiteColor);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.instagram {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.twitter {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.facebook {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkedin {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-box:hover,
+.social-box:focus {
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+}
+
+.page-footer .container {
+    display: flex;
+    align-items: center;
+    align-items: baseline
+}
+
+.join {
+    font-size: 14px;
+    color: var(--whiteColor);
+    line-height: 1.14;
+}
+
+.page-footer .social-box {
+    color: var(--whiteColor);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.page-footer .adress-footer {
+    margin-right: 70px;
+}
+
+.page-footer .social-box:focus,
+.page-footer .social-box:hover {
+    color: var(--whiteColor);
+    background-color: var(--blueColor)
 }
