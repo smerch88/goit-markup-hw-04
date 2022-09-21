@@ -75,7 +75,7 @@ img {
     padding: 200px 0;
     text-align: center;
     /* background-color: var(--backgroundDarkColor); */
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/img41.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(images/img41.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -490,19 +490,19 @@ footer .contacts a:hover {
 }
 
 .exeptions .attention-icon::before {
-    background-image: url(/images/Vector41.svg);
+    background-image: url(images/Vector41.svg);
 }
 
 .exeptions .time-icon::before {
-    background-image: url(/images/Vector42.svg);
+    background-image: url(images/Vector42.svg);
 }
 
 .exeptions .plan-icon::before {
-    background-image: url(/images/Vector43.svg);
+    background-image: url(images/Vector43.svg);
 }
 
 .exeptions .modern-icon::before {
-    background-image: url(/images/Vector44.svg);
+    background-image: url(images/Vector44.svg);
 }
 
 .clients .client-link {
