@@ -639,6 +639,7 @@ footer .contacts a:hover {
     margin: right 70px;
 }
 
-header .current-page a {
+header .current-page a,
+header .current-page a:link {
     color: var(--blueColor);
 }
