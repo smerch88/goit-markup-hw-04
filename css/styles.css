@@ -332,6 +332,11 @@ footer .contacts a:hover {
 
 /* sizing */
 
+.main-header {
+    display: flex;
+    align-items: center;
+}
+
 .container {
     /*container for width of all elements */
     width: 1200px;
@@ -385,11 +390,6 @@ footer .contacts a:hover {
 
 .contacts-nav .item+.item {
     margin-left: 50px;
-}
-
-.main-header {
-    display: flex;
-    align-items: center;
 }
 
 .main-nav {
@@ -538,11 +538,17 @@ footer .contacts a:hover {
 .mail-icon {
     fill: currentColor;
     margin-right: 10px;
+
+    width: 16px;
+    height: 12px;
 }
 
 .phone-icon {
     fill: currentColor;
     margin-right: 10px;
+
+    width: 16px;
+    height: 10px;
 }
 
 .social-network {
