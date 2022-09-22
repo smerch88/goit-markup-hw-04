@@ -513,6 +513,7 @@ footer .contacts a:hover {
     outline: none;
     align-items: center;
     justify-content: center;
+    color: var(--iconColor);
 }
 
 .clients .client-link:hover,
@@ -522,7 +523,7 @@ footer .contacts a:hover {
 }
 
 .client-icon {
-    color: var(--iconColor);
+    color: currentColor;
 }
 
 .client-icon {
@@ -538,17 +539,11 @@ footer .contacts a:hover {
 .mail-icon {
     fill: currentColor;
     margin-right: 10px;
-
-    width: 16px;
-    height: 12px;
 }
 
 .phone-icon {
     fill: currentColor;
     margin-right: 10px;
-
-    width: 16px;
-    height: 10px;
 }
 
 .social-network {
@@ -621,6 +616,12 @@ footer .contacts a:hover {
     font-size: 14px;
     color: var(--whiteColor);
     line-height: 1.14;
+    font-weight: 700;
+    line-height: 1.14;
+}
+
+.text {
+    margin-bottom: 20px;
 }
 
 .page-footer .social-box {
@@ -636,4 +637,8 @@ footer .contacts a:hover {
 .page-footer .social-box:hover {
     color: var(--whiteColor);
     background-color: var(--blueColor)
+}
+
+.footer-margin {
+    margin: right 70px;
 }
