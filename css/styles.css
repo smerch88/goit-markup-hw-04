@@ -639,10 +639,16 @@ footer .contacts a:hover {
     margin: right 70px;
 }
 
+.link:visited {
+    color: var(--headTextColor);
+}
+
 header .current-page a,
-header .current-page a:link {
+header .current-page a:link,
+header .current-page a:visited {
     color: var(--blueColor);
 }
+
 
 
 /* comment to test terminal */
