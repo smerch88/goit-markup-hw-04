@@ -285,6 +285,13 @@ footer .contacts a:hover {
     letter-spacing: 0.06em;
 }
 
+.filter-link:hover,
+.filter-link:focus {
+    display: block;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
 .filter-description {
     font-size: 16px;
     color: var(--textColor);
@@ -296,12 +303,6 @@ footer .contacts a:hover {
     font-size: 18px;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
-}
-
-.filter-item:hover,
-.filter-item:focus {
-    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
-        0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .filter-button {
